@@ -1,0 +1,20 @@
+Voo 01 - Destino: Ibirité
+Total de assentos reservados: 0
+Total de assentos disponíveis: 50
+
+Voo 02 - Destino: Contagem
+Total de assentos reservados: 1
+Total de assentos disponíveis: 49
+
+Voo 03 - Destino: Betim
+Total de assentos reservados: 0
+Total de assentos disponíveis: 50
+
+Voo 04 - Destino: Ladainha
+Total de assentos reservados: 0
+Total de assentos disponíveis: 50
+
+Voo 05 - Destino: Novo Cruzeiro
+Total de assentos reservados: 0
+Total de assentos disponíveis: 50
+

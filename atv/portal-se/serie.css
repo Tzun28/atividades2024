@@ -1,0 +1,138 @@
+.header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+#plantae {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 2rem;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#logo {
+    margin-right: auto; 
+    width: 100px;
+    height: auto;
+}
+
+#explorador {
+    margin-left: auto; 
+    width: 175px;
+    height: auto;
+}
+
+header {
+    background-color: #38b6ff;
+    text-align: right;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.series-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.series-details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.favorite-button {
+    background-color: #65b54e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.tosai {
+    text-align: justify; 
+}
+
+.cast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.cast-member {
+    text-align: center;
+}
+
+.cast-member img {
+    width: 150px; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.seasons-list {
+    margin-top: 20px;
+}
+
+.season {
+    margin-bottom: 20px;
+}
+
+.season h3 {
+    margin-bottom: 10px;
+}
+
+.season ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.season ul li {
+    background-color: #65b54e;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    
+    .cast-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .season ul {
+        padding: 0;
+    }
+}

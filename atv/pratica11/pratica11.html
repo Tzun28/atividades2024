@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas - Prática 11</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pratica11.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="pratica11.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="zofari my-4">Lista de Tarefas - Prática 11</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="nova-tarefa" class="form-control" placeholder="Adicionar nova tarefa">
+            <div class="input-group-append">
+                <button class="btn btn-primary" onclick="adicionarTarefa()">Adicionar</button>
+            </div>
+        </div>
+        <ul id="lista-tarefas" class="list-group">
+        </ul>
+    </div>
+</body>
+</html>

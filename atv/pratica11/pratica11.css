@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5b0077;
+}
+.container {
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000000;
+    margin-top: 50px;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-group-item.completed {
+    text-decoration: line-through;
+    color: #999999;
+}
+.btn {
+    cursor: pointer;
+}

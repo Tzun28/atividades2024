@@ -1,0 +1,143 @@
+html, body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+header, footer {
+    border: 0px rgb(255, 255, 255);
+    padding-top: 15px;
+    margin: 0px;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+.header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+#plantae {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 2rem;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#logo {
+    margin-right: auto; 
+    width: 100px;
+    height: auto;
+}
+
+#explorador {
+    margin-left: auto; 
+    width: 175px;
+    height: auto;
+}
+
+header {
+    background-color: #38b6ff;
+    text-align: right;
+    padding: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.carousel-item .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 26px;
+}
+
+.carousel-item .video-slide {
+    width: 100%;
+    max-width: 1016px;
+    height: 566px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    #logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo, #explorador {
+        margin: 10px 0;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    aside, main {
+        width: 100%;
+    }
+}
+
+#carouselExampleControls {
+    width: 70%; 
+    margin: 0 auto; 
+    position: relative; 
+}
+
+
+#popula {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-align: center; 
+    font-size: 2rem;
+    position: relative; 
+    margin-bottom: 10px; 
+}
+
+#popula::after {
+    content: ''; 
+    display: block; 
+    width: 50%; 
+    height: 2px; 
+    background-color: #000; 
+    margin: 0 auto; 
+    margin-top: 5px; 
+    margin-bottom: 20px; 
+}
+
+#recent {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-align: center; 
+    font-size: 2rem;
+    position: relative; 
+    margin-bottom: 10px; 
+}
+
+.card .btn {
+    background-color: #65b54e;
+}
+
